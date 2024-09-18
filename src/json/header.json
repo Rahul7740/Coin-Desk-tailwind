@@ -1,0 +1,18 @@
+{
+    "menuLInks":[
+        {
+            "name":"Home",
+            "selected":true
+        },
+        {
+            "name":"Market"
+        },
+        {
+            "name":"Portfolio"
+        },
+        {
+            "name":"Watchlist"
+        }
+    ],
+    "currency":["English","₹ INR"]
+}
