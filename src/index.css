@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1630px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
