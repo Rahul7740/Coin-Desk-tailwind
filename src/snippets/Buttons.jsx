@@ -2,7 +2,7 @@ import React from "react";
 
 function Buttons(props) {
   return (
-    <button className="text-lg leading-[26px] font-medium text-white hover:text-[#ffffff] p-[16px_20px] rounded transition-all duration-300 bg-gradient-to-r  hover:bg-gradient-to-l  from-cyan-500 to-blue-500">
+    <button className={`text-lg leading-[26px] font-medium text-white hover:text-[#ffffff] p-[16px_20px] rounded transition-all duration-300 bg-gradient-to-r  hover:bg-gradient-to-l  from-cyan-500 to-blue-500 w-full sm:w-auto ${props.class}`}>
       {props.name}
     </button>
   );

@@ -68,7 +68,7 @@ function Header() {
               />
             </button>
             <div className="hidden lg:block">
-              <Buttons name="Create an Account" />
+              <Buttons name="Create an Account"  />
             </div>
           </div>
         </div>

@@ -1,10 +1,14 @@
-import React from 'react'
-import Banner from '../Home/Banner'
+import React from "react";
+import Banner from "../Home/Banner";
+import UpcomingTokens from "../Home/UpcomingTokens";
 
 function Home() {
   return (
-    <Banner />
-  )
+    <>
+      <Banner />
+      <UpcomingTokens />
+    </>
+  );
 }
 
-export default Home
+export default Home;

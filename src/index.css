@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +41,47 @@ input {
 body {
   font-family: "Roboto", sans-serif;
 }
-.roboto{
+.roboto {
   font-family: "Roboto", sans-serif;
+}
+.all-sections {
+  padding: 70px 0;
+}
+.translate-center{
+  transform: translate(-50%,-50%);
+}
+html::-webkit-scrollbar {
+  width: 12px;
+  border: none;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background-color: #161d26;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(94.58deg, #529ad1 0%, #02274e 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100px;
+}
+
+html::-webkit-scrollbar-corner {
+  background: transparent;
+}
+@media (max-width: 1200px) {
+  .all-sections {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 900px) {
+  .all-sections {
+    padding: 32px 0;
+  }
+}
+@media (max-width: 720px) {
+  .all-sections {
+    padding: 20px 0;
+  }
 }
