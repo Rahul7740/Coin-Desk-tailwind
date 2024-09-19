@@ -36,7 +36,7 @@ function Banner() {
         </div>
         <div className="grid grid-cols-[auto_auto] sm:flex items-center gap-[30px] justify-between flex-wrap 2xl:flex-nowrap pb-10 lg:pb-[50px] ">
           {bannerJsonData.map((item, index) => (
-            <div key={index} className="flex flex-col sm:flex-row items-start sm:items-center sm:min-w-[242px] gap-3  sm:gap-[18px] justify-between p-0 sm:py-[10px] sm:pl-[14px] sm:pr-[11px] sm:border-[1px] border-[#40476C] rounded">
+            <div key={index} className="flex flex-col sm:flex-row items-start sm:items-center sm:min-w-[242px] gap-3  sm:gap-[18px] justify-between p-0 sm:py-[10px] sm:pl-[14px] sm:pr-[11px] sm:border-[1px] border-[#40476C] hover:border-transparent transition-all duration-150 cursor-default rounded">
               <h5 className="text-[#CCCED9] text-[14px]  leading-[22px] font-normal  ">{item.name}</h5>
               <div>
                 <h3 className=" text-base font-medium text-[#F0F1F5] ">{item.price}</h3>

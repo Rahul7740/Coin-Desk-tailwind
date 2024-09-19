@@ -32,11 +32,13 @@ function Header() {
                 key={index}
                 className="flex items-center gap-2 cursor-pointer group"
               >
-                <h3 className="text-[#40476C] md:text-[#F0F1F5] text-base leading-[26px] font-normal">
+                <h3 className={`text-[#40476C] md:text-[#F0F1F5]  text-base leading-[26px] font-normal bg-gradient-to-l from-[#25A1FF] to-[#0070E4] bg-clip-text transition-all duration-150
+                  ${!item.selected && "group-hover:text-transparent"}
+                  `}>
                   {item.name}
                 </h3>
                 <img
-                  className={`opacity-0 group-hover:opacity-100 transition-all duration-300 ${
+                  className={`opacity-0  transition-all duration-300 ${
                     item.selected && "opacity-100"
                   }`}
                   src={require(`../assets/svg/down-arrow-gray.svg`).default}
