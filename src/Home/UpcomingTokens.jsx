@@ -3,7 +3,7 @@ import tokenJson from "../json/uppcomingTokens.json";
 function UpcomingTokens() {
   return (
     <section className="all-sections relative">
-      <div className="w-full h-full -z-10 absolute top-2/4 left-2/4 translate-center rounded-[50%] overflow-hidden opacity-[18%] bg-gradient-to-r from-[#E8AA2E38] to-[#FF00D638]"></div>
+      <div className="w-full h-full -z-10 absolute top-2/4 left-2/4 translate-center rounded-[50%] overflow-hidden opacity-[15%] bg-gradient-to-r from-[#E8AA2E38] to-[#FF00D638] shadow-[0_0_30px_#FF00D638]"></div>
       <div className="container">
         <div className=" ">
           <div className="text-center flex flex-col gap-[14px] sm:gap-[18px] items-start sm:items-center">
@@ -12,11 +12,11 @@ function UpcomingTokens() {
             </h2>
             <span className="max-w-[140px] w-full bg-[#25A1FF] h-[2px]"></span>
           </div>
-          <div className="grid grid-cols-2 sm:flex items-center gap-[13px] 2xl:gap-[30px] justify-between py-20 flex-wrap 2xl:flex-nowrap">
+          <div className="grid grid-cols-2 md:flex items-center gap-[13px] 2xl:gap-[30px] justify-between pt-[32px] pb-0 sm:py-10 lg:py-20 flex-wrap 2xl:flex-nowrap">
             {tokenJson.map((item, index) => (
               <div
                 key={index}
-                className="bg-[#151343] max-w-60 w-full text-left sm:text-center rounded-[10px] flex flex-col items-center py-6 sm:py-8 px-3 sm:px-[18px]"
+                className="bg-[#151343]  md:max-w-60 w-full text-left sm:text-center rounded-[10px] flex flex-col items-center py-6 sm:py-8 px-3 sm:px-[18px]"
               >
                 <div className="flex flex-row self-start sm:self-center items-center sm:flex-col gap-[8px] lg:gap-[18px]">
                   <img
@@ -46,6 +46,7 @@ function UpcomingTokens() {
               </div>
             ))}
           </div>
+          <div className="max-w-[588px] w-full bg-[#25A1FF] h-[6px] rounded-[6px] hidden sm:block"></div>
         </div>
       </div>
     </section>

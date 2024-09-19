@@ -47,16 +47,17 @@ body {
 .all-sections {
   padding: 70px 0;
 }
-.translate-center{
-  transform: translate(-50%,-50%);
+.translate-center {
+  transform: translate(-50%, -50%);
 }
+
 html::-webkit-scrollbar {
   width: 12px;
   border: none;
 }
 
 html::-webkit-scrollbar-track {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background-color: #161d26;
 }
 

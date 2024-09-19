@@ -7,7 +7,7 @@ function Banner() {
     <section className="bg-[rgb(22,29,38)] banner-section bg-[url(./assets/img/banner-background.png)] bg-no-repeat bg-center bg-cover mb-5 md:mb-8 xl:mb-[70px]">
       <Header />
       <div className="container">
-        <div className="flex flex-col-reverse lg:grid grid-cols-1  lg:grid-cols-2 gap-10 2xl:gap-[308px] xl:flex xl:flex-row items-center  justify-between pt-[80px] sm:pt-[70px] lg:pt-[50px] pb-10 sm:pb-7 lg:pb-[25px] ">
+        <div className="flex flex-col-reverse lg:grid grid-cols-1  lg:grid-cols-2 gap-10 2xl:gap-[308px] xl:flex xl:flex-row items-center  justify-between pt-[80px] sm:pt-[70px] lg:pt-[58px] pb-10 sm:pb-7 lg:pb-[25px] ">
           <div className="max-w-[635px] w-full text-center lg:text-left">
             <h1
               className="text-white text-[34px] leading-[46px] font-extrabold 

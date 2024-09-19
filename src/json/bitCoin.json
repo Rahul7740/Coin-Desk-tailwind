@@ -1,0 +1,75 @@
+{
+  "headings1": ["Trending", "Top Gainers", "Top Losers", "Others"],
+  "headings": [
+    { "name": "Trending" },
+    { "name": "Top Gainers" },
+    { "name": "Top Losers" },
+    { "name": "Others", "lgHidden": true }
+  ],
+  "contents-heading": [
+    { "name": "Name/Price", "smShow": true },
+    { "name": "Market", "smHidden": true },
+    { "name": "Price", "smHidden": true },
+    { "name": "24h High" },
+    { "name": "24h Low", "lgHidden": true },
+    { "name": "24h Volume" }
+  ],
+  "contents": [
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    },
+    {
+      "name": "Bitcoin",
+      "price": "₹ 3,485,789.56",
+      "high": "₹ 4,285,654.12",
+      "low": "₹ 2,985,951.64",
+      "volume": "₹ 345,485,852.94"
+    }
+  ]
+}
