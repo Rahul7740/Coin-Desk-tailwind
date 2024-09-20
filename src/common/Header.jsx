@@ -11,16 +11,12 @@ function Header() {
               src={require(`../assets/svg/main-logo.svg`).default}
               alt="main-logo"
             />
-            <div className="flex items-end">
-              <h1 className="text-[#40476C] md:text-white text-[28px] font-medium leading-[38px]">
-                C
-              </h1>
-              <p className="text-[#40476C] md:text-white text-lg leading-8 font-normal">
+            <div className="flex items-end text-[#40476C] md:text-white text-[28px] font-medium leading-[38px]">
+              C
+              <p className="text-[#40476C] md:text-white text-lg leading-8 font-normal mr-[2px]">
                 oin
               </p>
-              <h1 className="ml-[2px] text-[#40476C] md:text-white text-[28px] font-medium leading-[38px]">
-                D
-              </h1>
+              D
               <p className="text-[#40476C] md:text-white text-lg leading-8 font-normal">
                 esk
               </p>
@@ -32,9 +28,11 @@ function Header() {
                 key={index}
                 className="flex items-center gap-2 cursor-pointer group"
               >
-                <h3 className={`text-[#40476C] md:text-[#F0F1F5]  text-base leading-[26px] font-normal bg-gradient-to-l from-[#25A1FF] to-[#0070E4] bg-clip-text transition-all duration-150
+                <h3
+                  className={`text-[#40476C] md:text-[#F0F1F5]  text-base leading-[26px] font-normal bg-gradient-to-l from-[#25A1FF] to-[#0070E4] bg-clip-text transition-all duration-150
                   ${!item.selected && "group-hover:text-transparent"}
-                  `}>
+                  `}
+                >
                   {item.name}
                 </h3>
                 <img
@@ -70,7 +68,7 @@ function Header() {
               />
             </button>
             <div className="hidden lg:block">
-              <Buttons name="Create an Account"  />
+              <Buttons name="Create an Account" />
             </div>
           </div>
         </div>

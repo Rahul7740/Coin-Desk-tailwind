@@ -1,0 +1,54 @@
+{
+  "footerData": [
+    {
+      "heading": "Contact Us",
+      "contents": [
+        "About Us",
+        "Join Us",
+        "Technical Support",
+        "Affiliate Program"
+      ]
+    },
+    {
+      "heading": "Products",
+      "contents": ["Spot Trade", "Margin Trade", "Future Trade", "Lending"]
+    },
+    {
+      "heading": "Service",
+      "contents": ["FAQ", "Fee", "Blogs", "Open A Ticket", "ID Verification"]
+    },
+    {
+      "heading": "Legal",
+      "contents": [
+        "Terms of Use",
+        "Privacy Policy",
+        "AML & CFT",
+        "Special Treatment Area",
+        "Plus Trading Area"
+      ]
+    },
+    {
+      "heading": "Business",
+      "contents": ["Token Listing", "Market Maker"],
+      "xlHide": true
+    }    
+  ],
+  "downloadBtns": [
+    {
+      "title": "get it on",
+      "name": "Google Play",
+      "img": "play-store-icon.svg"
+    },
+    {
+      "title": "download on",
+      "name": "App Store",
+      "img": "app-store-icon.svg"
+    }
+  ],
+  "socialMedia": [
+    { "img": "footer-facebook-icon.svg", "link": "https://www.facebook.com/" },
+    { "img": "footer-massege-icon.svg", "link": "https://www.messenger.com/" },
+    { "img": "footer-tweeter-icon.svg", "link": "https://x.com/?lang=en" },
+    { "img": "footer-be-icon.svg", "link": "https://www.beingsocialmedia.com/" }
+  ]
+}
