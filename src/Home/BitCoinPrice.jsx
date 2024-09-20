@@ -11,7 +11,7 @@ function BitCoinPrice() {
           {jsonData["headings"].map((i, index) => (
             <h2
               key={index}
-              className={`bg-[#EEF7FF99] p-[12px_19px] lg:p-[12px_24px] rounded-t-[10px] text-[#0091FF] text-[14px] leading-[17px] sm:text-base font-medium ${
+              className={`bg-[#EEF7FF99] p-[11px_18px] lg:p-[11px_23px] rounded-t-[10px] text-[#0091FF] text-[14px] leading-[17px] sm:text-base font-medium cursor-pointer transition-all duration-300 border-[1px] border-b-0 border-solid border-transparent hover:border-[#0091FF] ${
                 i.lgHidden && "hidden lg:block"
               }`}
             >

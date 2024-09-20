@@ -50,7 +50,11 @@ body {
 .translate-center {
   transform: translate(-50%, -50%);
 }
+.all-btns:hover {
+  box-shadow: 0px 0px 42px 0px #25a1ff3f , 0px 22px 35px 3px #006ee42d , 0px 10px 14px -4px #25a1ff31;
+}
 
+/* =========scroll bar======== */
 html::-webkit-scrollbar {
   width: 12px;
   border: none;
@@ -71,6 +75,15 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-corner {
   background: transparent;
 }
+/* ===swiper=== */
+.swiper-slide-prev,.swiper-slide-next{
+  opacity: 0.6;
+}
+.paginationSelected{
+  background: linear-gradient(94.58deg, #25A1FF 0%, #0070E4 100%);
+  outline-color: #25A1FF;
+}
+/* ========Media======== */
 @media (max-width: 1200px) {
   .all-sections {
     padding: 50px 0;
