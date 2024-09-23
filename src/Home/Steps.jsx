@@ -13,7 +13,7 @@ function Steps() {
             </h2>
             <span className="max-w-[140px] w-full bg-[#25A1FF] h-[2px]"></span>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center justify-between gap-[30px] pt-[32px] sm:pt-[50px] md:pt-[60px] lg:pt-20">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 items-center justify-between gap-[13px] lg:gap-[30px] pt-[32px] sm:pt-[50px] md:pt-[60px] lg:pt-20">
             {jsonData.map((item, index) => (
               <div
                 key={index}
@@ -25,8 +25,11 @@ function Steps() {
                     alt="iconss"
                   />
                   <div className="">
-                    <h3 className="text-[#40476C] text-base sm:text-[19px] sm:leading-6 tracking-[0.02em] mb-3">
+                    <h3 className="hidden sm:block text-[#40476C] text-base sm:text-[19px] sm:leading-6 tracking-[0.02em] mb-3">
                       {item.name}
+                    </h3>
+                    <h3 className="block sm:hidden text-[#40476C] text-base sm:text-[19px] sm:leading-6 tracking-[0.02em] mb-3">
+                      {item.shortName}
                     </h3>
                     <p className="text-[#8C9298] text-[10px] sm:text-[12px] lg:text-[14px] leading-[14px] sm:leading-[18px] lg:leading-[22px] font-normal">
                       {item.p}

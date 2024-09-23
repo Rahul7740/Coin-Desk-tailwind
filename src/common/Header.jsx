@@ -6,7 +6,7 @@ function Header() {
     <header className=" py-[29px] md:py-[36px] lg:py-[38px] xl:py-[42px] bg-white md:bg-transparent">
       <div className="container">
         <div className="flex gap-5 justify-between items-center">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 cursor-pointer">
             <img
               src={require(`../assets/svg/main-logo.svg`).default}
               alt="main-logo"

@@ -11,8 +11,9 @@ function Footer() {
               <img
                 src={require(`../assets/svg/main-logo.svg`).default}
                 alt="main-logo"
+                className="cursor-pointer"
               />
-              <div className="flex items-end text-white text-[28px] font-medium leading-[38px]">
+              <div className="flex items-end text-white text-[28px] font-medium leading-[38px] cursor-pointer">
                 C
                 <p className="text-white text-lg leading-8 font-normal mr-[2px]">
                   oin
@@ -39,7 +40,7 @@ function Footer() {
                     <Link
                       key={index}
                       className="text-[#6A718A] hover:text-transparent font-normal text-[16px] leading-[26px] transition-all duration-200 bg-gradient-to-r from-[#25A1FF] to-[#0070E4] bg-clip-text relative w-fit
-                      before:contents-[' '] before:absolute before:left-0 before:bottom-[4px] before:w-0 before:h-[1px]  before:bg-gradient-to-r before:from-from-[#25A1FF] before:to-[#0070E4] hover:before:w-full before:transition-all before:duration-200 before:z-10
+                      before:contents-[' '] before:absolute before:left-0 before:bottom-[4px] before:w-0 before:h-[1px]  before:bg-gradient-to-r before:from-from-[#25A1FF] before:to-[#0070E4] before:rounded hover:before:w-full before:transition-all before:duration-200 before:z-10
 
                       "
                     >

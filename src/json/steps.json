@@ -2,21 +2,25 @@
     {
         "img":"steps-img-1.svg",
         "name":"Create Account",
+        "shortName":"Create Account",
         "p":"Sign Up With Your Email and Mobile in Just 5 Minutes."
     },
     {
         "img":"steps-img-2.svg",
         "name":"Verify Your Bank",
+        "shortName":"Verify Bank",
         "p":"Upload Documents and Verify Your Bank Account in Easy Way."
     },
     {
         "img":"steps-img-3.svg",
         "name":"Add Fund In Wallet",
+        "shortName":"Add Fund",
         "p":"Quickly Add Money to Your Investment Wallet."
     },
     {
         "img":"steps-img-4.svg",
         "name":"Start Trading Instantly",
+        "shortName":"Start Trading",
         "p":"Buy & Sell a Variety of Top Coins At The Best Prices"
     }
 ]
