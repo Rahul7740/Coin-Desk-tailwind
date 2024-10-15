@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import jsonData from "../json/header.json";
 import Buttons from "../snippets/Buttons";
 function Header() {
+  const [menu, setMenu] = useState(false);
   return (
     <header className=" py-[29px] md:py-[36px] lg:py-[38px] xl:py-[42px] bg-white md:bg-transparent">
       <div className="container">
@@ -61,11 +62,45 @@ function Header() {
                 </h4>
               ))}
             </div>
-            <button className="block lg:hidden ">
-              <img
-                src={require(`../assets/svg/menu-btn.svg`).default}
-                alt="menu-link"
-              />
+            <button className="block lg:hidden relative">
+              {menu === false ? (
+                <img
+                  onClick={() => {
+                    setMenu(true);
+                  }}
+                  src={require(`../assets/svg/menu-btn.svg`).default}
+                  alt="menu-btn"
+                />
+              ) : (
+                <img
+                  onClick={() => {
+                    setMenu(false);
+                  }}
+                  src={require(`../assets/svg/menu-close-btn.svg`).default}
+                  alt="menu-close-btn"
+                />
+              )}
+              <div
+                className={`absolute right-0 top-[120%] min-w-56 w-full p-[10px_15px] rounded-md ${
+                  menu === true ? "flex" : "hidden"
+                } flex-col gap-2 bg-slate-100 shadow-2xl `}
+              >
+                {jsonData["menuLInks"].map((item, index) => (
+                  <h3
+                    key={index}
+                    className={`text-white  text-base leading-[26px] p-[5px_10px] rounded font-normal bg-gradient-to-l from-[#25A1FF] to-[#0070E4]  transition-all duration-150
+                  `}
+                  >
+                    {item.name}
+                  </h3>
+                ))}
+                <h3
+                  className={`text-white  text-base leading-[26px] p-[5px_10px] rounded font-normal bg-gradient-to-l from-[#25A1FF] to-[#0070E4]  transition-all duration-150
+                  `}
+                >
+                  Create an Account
+                </h3>
+              </div>
             </button>
             <div className="hidden lg:block">
               <Buttons name="Create an Account" />
